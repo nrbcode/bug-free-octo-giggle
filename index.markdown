@@ -4,3 +4,4 @@
 
 layout: home
 ---
+Some more text on the index markdown page.
