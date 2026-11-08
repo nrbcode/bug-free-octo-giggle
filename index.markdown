@@ -4,4 +4,5 @@
 
 layout: home
 ---
-Some more text on the index markdown page.
+This text is on index markdown page (Located in root directory.)
+It has the home layout.

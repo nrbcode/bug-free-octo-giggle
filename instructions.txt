@@ -1,0 +1,14 @@
+# Create new branch, with no history or contents
+git checkout --orphan gh-pages
+
+# Create a Jekyll site in the current directory
+jekyll new --skip-bundle .
+
+# Add workflow actions etc. before installation
+bundle install
+
+# Build the site and make it available on a local server
+bundle exec jekyll serve
+
+# locate theme source
+bundle info --path minima
